@@ -1,17 +1,3 @@
-/*
- * 品智科技S32K144开发板
- * 01-基础工程
- * 建立一个常用的工程,包含数个常用函数
- *
- * IO配置
- * KEY1 PTC12
- * KEY2 PTC13
- * KEY3 PTB2
- * LED1 PTD16
- * LED2 PTD15
- * LED3 PTD1
- * LED4 PTD0
-*/
 /* 板载 Modbus 接口使用 LPUART2，PTE14 控制 RS485 的 DE+/RE。 */
 #include "Cpu.h"
 #include "delay.h"
